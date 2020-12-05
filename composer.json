@@ -1,0 +1,38 @@
+{
+    "name": "socialapis/instagram-api",
+    "description": "Grow up your Instagram by Following other people",
+    "keywords": [
+        "Instagram",
+        "Private",
+        "API",
+        "PHP"
+    ],
+    "authors": [
+        {
+            "name": "socialAPIS",
+            "email": "noemail@example.com",
+            "role": "Founder"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "InstagramFollowers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "InstagramFollowers\\Tests\\": "tests/"
+        }
+    },
+    "license": "RPL-1.5",
+    "require": {
+        "php": ">=7.0",
+        "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "scripts": {
+        "test": [
+            "phpunit tests"
+        ]
+    }
+}
